@@ -8,14 +8,14 @@
  * i = 6 = 8
  */
 
-function calculaFibonacci(totalSequencia) {
+function calculaFibonacci(valor) {
   console.time('fibonacci');
 
   let sequencia = [];
   let penultimoResultado = 0;
   let ultimoResultado = 0;
 
-  for (let index = 0; index <= totalSequencia; index++) {
+  for (let index = 0; index <= valor; index++) {
     ultimoResultado = fibonacci(index, ultimoResultado);
     sequencia.push(ultimoResultado);
   }

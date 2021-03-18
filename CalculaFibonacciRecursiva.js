@@ -8,7 +8,7 @@
  * i = 6 = 8
  */
 
-function calculaFibonacciRecursiva(totalSequencia) {
+function calculaFibonacciRecursiva(valor) {
   console.time('fibonacciRecursiva');
 
   let sequencia = [];
@@ -19,7 +19,7 @@ function calculaFibonacciRecursiva(totalSequencia) {
       : fibonacci(index - 1) + fibonacci(index - 2);
   }
 
-  for (let index = 0; index <= totalSequencia; index++) {
+  for (let index = 0; index <= valor; index++) {
     sequencia.push(fibonacci(index));
   }
 
