@@ -1,4 +1,4 @@
-/* Sequencia de
+/* Sequencia de Fibonacci
  * i = 0 = 0
  * i = 1 = 1
  * i = 2 = 1
